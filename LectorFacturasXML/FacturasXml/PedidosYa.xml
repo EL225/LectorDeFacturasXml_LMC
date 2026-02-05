@@ -1,0 +1,156 @@
+<rContFe xmlns="http://dgi-fep.mef.gob.pa/wsdl/FeRecepFE">
+  <dVerForm>1.00</dVerForm>
+  <xFe>
+    <rFE xmlns="http://dgi-fep.mef.gob.pa">
+      <dVerForm>1.00</dVerForm>
+      <dId>FE01200002679372-1-844914-7300002026011300403020630020318458360235</dId>
+      <gDGen>
+        <iAmb>1</iAmb>
+        <iTpEmis>03</iTpEmis>
+        <iDoc>01</iDoc>
+        <dNroDF>0040302063</dNroDF>
+        <dPtoFacDF>002</dPtoFacDF>
+        <dSeg>845836023</dSeg>
+        <dFechaEm>2026-01-13T12:53:11-05:00</dFechaEm>
+        <iNatOp>01</iNatOp>
+        <iTipoOp>1</iTipoOp>
+        <iDest>1</iDest>
+        <iFormCAFE>3</iFormCAFE>
+        <iEntCAFE>3</iEntCAFE>
+        <dEnvFE>1</dEnvFE>
+        <iProGen>2</iProGen>
+        <dInfEmFE>[D]SystemRef=646041327|ConfirmationNbr=845836023|[/D]\n</dInfEmFE>
+        <gEmis>
+          <gRucEmi>
+            <dTipoRuc>2</dTipoRuc>
+            <dRuc>2679372-1-844914</dRuc>
+            <dDV>73</dDV>
+          </gRucEmi>
+          <dNombEm>DELIVERY HERO PANAMA (E- COMMERCE) S.A.</dNombEm>
+          <dSucEm>0000</dSucEm>
+          <dCoordEm>8.991253,-79.5054</dCoordEm>
+          <dDirecEm>Corregimiento de SAN FRANCISCO, Edificio MIDTOWN, Apartamento local PISO 13</dDirecEm>
+          <gUbiEm>
+            <dCodUbi>8-8-9</dCodUbi>
+            <dCorreg>SAN FRANCISCO</dCorreg>
+            <dDistr>PANAMA</dDistr>
+            <dProv>PANAMA</dProv>
+          </gUbiEm>
+          <dTfnEm>269-2641</dTfnEm>
+          <dCorElectEmi>marcelo.medina@pedidosya.com</dCorElectEmi>
+        </gEmis>
+        <gDatRec>
+          <iTipoRec>02</iTipoRec>
+          <dNombRec>Cliente Genérico</dNombRec>
+          <dCorElectRec>rosa.mora50@yahoo.es</dCorElectRec>
+          <cPaisRec>PA</cPaisRec>
+        </gDatRec>
+      </gDGen>
+      <gItem>
+        <dSecItem>1</dSecItem>
+        <dDescProd>Servicio Logistico</dDescProd>
+        <dCodProd>DELIVERY-FEE-PA</dCodProd>
+        <dCantCodInt>1</dCantCodInt>
+        <gPrecios>
+          <dPrUnit>1.654206</dPrUnit>
+          <dPrUnitDesc>0.000000</dPrUnitDesc>
+          <dPrItem>1.654206</dPrItem>
+          <dValTotItem>1.770000</dValTotItem>
+        </gPrecios>
+        <gITBMSItem>
+          <dTasaITBMS>01</dTasaITBMS>
+          <dValITBMS>0.115794</dValITBMS>
+        </gITBMSItem>
+      </gItem>
+      <gTot>
+        <dTotNeto>1.65</dTotNeto>
+        <dTotITBMS>0.12</dTotITBMS>
+        <dTotGravado>0.12</dTotGravado>
+        <dVTot>1.77</dVTot>
+        <dTotRec>1.77</dTotRec>
+        <iPzPag>1</iPzPag>
+        <dNroItems>1</dNroItems>
+        <dVTotItems>1.77</dVTotItems>
+        <gFormaPago>
+          <iFormaPago>06</iFormaPago>
+          <dVlrCuota>1.77</dVlrCuota>
+        </gFormaPago>
+      </gTot>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>95NTPK3i4LxtaoONu1iNsspRTgtLplTmJ5bcH2J9Zg8=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>HnbeaL96OYu3Ukj8sM2idlS20okT3bO2NB8I9ODcxj29Ikk22fv2CD9U0B/B8RHHYaO1HOXoy5PsFFBgLSXHo6A99Z8UabZ4r0hKvjJ3i3sjTDQ3mfgsRYYQq2RlTxj/vdlS6dRjOHvvXPWcUrt0axdnD1zmvRH01sKBH4PqGXms7wsO/Wph5mprl/mMvom1c7xCeZsFPCt0jQk4+ybfwRlH+Uns4T1k3uvt1+YTT2bSHodXPOmELwL1bvu4fUDuDSdBBisFtlDq2VXcW8A2yXQjoGlA0oORorWO6z4TagzpO7Q/aMbvvBkj+m4r9WD3hY/SCLIs/gEYojdCFBWYmQ==</SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509SubjectName>CN=[A] DELIVERY HERO PANAMA (E- COMMERCE) S.A.    - 2679372-1-844914 - 73 - SMART NUÑEZ KRISSYA MARIEL, OU=FACTURA ELECTRONICA, O=FIRMA ELECTRONICA, C=PA</X509SubjectName>
+            <X509Certificate>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</X509Certificate>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+      <gNoFirm>
+        <dQRCode><![CDATA[https://dgi-fep.mef.gob.pa/Consultas/FacturasPorQR?chFE=FE01200002679372-1-844914-7300002026011300403020630020318458360235&iAmb=1&digestValue=95NTPK3i4LxtaoONu1iNsspRTgtLplTmJ5bcH2J9Zg8=&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaEZFIjoiRkUwMTIwMDAwMjY3OTM3Mi0xLTg0NDkxNC03MzAwMDAyMDI2MDExMzAwNDAzMDIwNjMwMDIwMzE4NDU4MzYwMjM1IiwiaUFtYiI6IjEiLCJkaWdlc3RWYWx1ZSI6Ijk1TlRQSzNpNEx4dGFvT051MWlOc3NwUlRndExwbFRtSjViY0gySjlaZzg9In0.9rMgzt9D1rZ6zFlFedyztpi2iuhuDbDQ2jKQY-QDyZI]]></dQRCode>
+      </gNoFirm>
+    </rFE>
+  </xFe>
+  <xProtFe>
+    <rProtFe xmlns="http://dgi-fep.mef.gob.pa">
+      <dVerForm>1.00</dVerForm>
+      <gInfProt>
+        <dId>ID00001837393-1-71143820263826110000950726</dId>
+        <iAmb>1</iAmb>
+        <dVerApl>0.1.0</dVerApl>
+        <dCUFE>FE01200002679372-1-844914-7300002026011300403020630020318458360235</dCUFE>
+        <dFecProc>2026-01-13T12:55:16-05:00</dFecProc>
+        <dProtAut>00001837393-1-71143820263826110000950726</dProtAut>
+        <dDigVal>95NTPK3i4LxtaoONu1iNsspRTgtLplTmJ5bcH2J9Zg8=</dDigVal>
+        <gResProc>
+          <dCodRes>2007</dCodRes>
+          <dMsgRes>Item 1: No informado ningún código de producto en la Codificación Panameña de Bienes y Servicios </dMsgRes>
+        </gResProc>
+        <gResProc>
+          <dCodRes>0260</dCodRes>
+          <dMsgRes>Autorizado el uso de la FE</dMsgRes>
+        </gResProc>
+      </gInfProt>
+      <Signature></Signature>
+    </rProtFe>
+  </xProtFe>
+  <xContEv>
+    <rContEv>
+      <dVerForm>1.00</dVerForm>
+      <xEvento>
+        <rProtFe xmlns="http://dgi-fep.mef.gob.pa">
+          <dVerForm>1.00</dVerForm>
+          <gInfProt>
+            <dId>ID00001837393-1-71143820263826110000950726</dId>
+            <iAmb>1</iAmb>
+            <dVerApl>0.1.0</dVerApl>
+            <dCUFE>FE01200002679372-1-844914-7300002026011300403020630020318458360235</dCUFE>
+            <dFecProc>2026-01-13T12:55:16-05:00</dFecProc>
+            <dProtAut>00001837393-1-71143820263826110000950726</dProtAut>
+            <dDigVal>95NTPK3i4LxtaoONu1iNsspRTgtLplTmJ5bcH2J9Zg8=</dDigVal>
+            <gResProc>
+              <dCodRes>2007</dCodRes>
+              <dMsgRes>Item 1: No informado ningún código de producto en la Codificación Panameña de Bienes y Servicios </dMsgRes>
+            </gResProc>
+            <gResProc>
+              <dCodRes>0260</dCodRes>
+              <dMsgRes>Autorizado el uso de la FE</dMsgRes>
+            </gResProc>
+          </gInfProt>
+          <Signature></Signature>
+        </rProtFe>
+      </xEvento>
+    </rContEv>
+  </xContEv>
+</rContFe>

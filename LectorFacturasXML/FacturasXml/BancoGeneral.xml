@@ -1,0 +1,201 @@
+<rContFe xmlns="http://dgi-fep.mef.gob.pa/wsdl/FeRecepFE">
+  <dVerForm>1.00</dVerForm>
+  <xFe>
+    <rFE xmlns="http://dgi-fep.mef.gob.pa">
+      <dVerForm>1.00</dVerForm>
+      <dId>FE0120000000280-134-61098-0200002026011400300407000010117121265495</dId>
+      <gDGen>
+        <iAmb>1</iAmb>
+        <iTpEmis>01</iTpEmis>
+        <iDoc>01</iDoc>
+        <dNroDF>0030040700</dNroDF>
+        <dPtoFacDF>001</dPtoFacDF>
+        <dSeg>712126549</dSeg>
+        <dFechaEm>2026-01-14T04:25:21-05:00</dFechaEm>
+        <iNatOp>01</iNatOp>
+        <iTipoOp>1</iTipoOp>
+        <iDest>1</iDest>
+        <iFormCAFE>3</iFormCAFE>
+        <iEntCAFE>3</iEntCAFE>
+        <dEnvFE>1</dEnvFE>
+        <iProGen>2</iProGen>
+        <dInfEmFE>[D]SystemRef=25578473|ConfirmationNbr=712126549|[/D]\n</dInfEmFE>
+        <gEmis>
+          <gRucEmi>
+            <dTipoRuc>2</dTipoRuc>
+            <dRuc>280-134-61098</dRuc>
+            <dDV>02</dDV>
+          </gRucEmi>
+          <dNombEm>BANCO GENERAL S A</dNombEm>
+          <dSucEm>0000</dSucEm>
+          <dCoordEm>8.977062,-79.5217</dCoordEm>
+          <dDirecEm>Calle Aquilino De La Guardia Ave. 5ta B Sur, Torre Banco Central</dDirecEm>
+          <gUbiEm>
+            <dCodUbi>8-8-7</dCodUbi>
+            <dCorreg>BELLA VISTA</dCorreg>
+            <dDistr>PANAMA</dDistr>
+            <dProv>PANAMA</dProv>
+          </gUbiEm>
+          <dTfnEm>300-5000</dTfnEm>
+          <dCorElectEmi>comunicacionespac@bgeneral.com</dCorElectEmi>
+        </gEmis>
+        <gDatRec>
+          <iTipoRec>01</iTipoRec>
+          <gRucRec>
+            <dTipoRuc>1</dTipoRuc>
+            <dRuc>8-482-125</dRuc>
+            <dDV>81</dDV>
+          </gRucRec>
+          <dNombRec>Rosa Raquel Mora de León</dNombRec>
+          <dDirecRec>PANAMA</dDirecRec>
+          <dCorElectRec>rosa.mora50@yahoo.es</dCorElectRec>
+          <cPaisRec>PA</cPaisRec>
+        </gDatRec>
+        <gAutXML>
+          <gRucAutXML>
+            <dTipoRuc>1</dTipoRuc>
+            <dRuc>8-482-125</dRuc>
+            <dDV>81</dDV>
+          </gRucAutXML>
+        </gAutXML>
+      </gDGen>
+      <gItem>
+        <dSecItem>1</dSecItem>
+        <dDescProd>COMISION POR ACH XPRESS A Rosa Mora de Leon cta transf tarjeta y ahorro</dDescProd>
+        <dCodProd>07 DIC 2025</dCodProd>
+        <dCantCodInt>1</dCantCodInt>
+        <gPrecios>
+          <dPrUnit>0.5000</dPrUnit>
+          <dPrUnitDesc>0.0000</dPrUnitDesc>
+          <dPrItem>0.5000</dPrItem>
+          <dValTotItem>0.5350</dValTotItem>
+        </gPrecios>
+        <gITBMSItem>
+          <dTasaITBMS>01</dTasaITBMS>
+          <dValITBMS>0.0350</dValITBMS>
+        </gITBMSItem>
+      </gItem>
+      <gItem>
+        <dSecItem>2</dSecItem>
+        <dDescProd>COMISION POR ACH XPRESS A Rosa Mora de Leon prestamos</dDescProd>
+        <dCodProd>13 DIC 2025</dCodProd>
+        <dCantCodInt>1</dCantCodInt>
+        <gPrecios>
+          <dPrUnit>0.5000</dPrUnit>
+          <dPrUnitDesc>0.0000</dPrUnitDesc>
+          <dPrItem>0.5000</dPrItem>
+          <dValTotItem>0.5350</dValTotItem>
+        </gPrecios>
+        <gITBMSItem>
+          <dTasaITBMS>01</dTasaITBMS>
+          <dValITBMS>0.0350</dValITBMS>
+        </gITBMSItem>
+      </gItem>
+      <gTot>
+        <dTotNeto>1.00</dTotNeto>
+        <dTotITBMS>0.07</dTotITBMS>
+        <dTotGravado>0.07</dTotGravado>
+        <dVTot>1.07</dVTot>
+        <dTotRec>1.07</dTotRec>
+        <iPzPag>1</iPzPag>
+        <dNroItems>2</dNroItems>
+        <dVTotItems>1.07</dVTotItems>
+        <gFormaPago>
+          <iFormaPago>01</iFormaPago>
+          <dVlrCuota>1.07</dVlrCuota>
+        </gFormaPago>
+      </gTot>
+      <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+          <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+          <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+          <Reference URI="">
+            <Transforms>
+              <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+            </Transforms>
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+            <DigestValue>Vp4vYJkHQA0p908wJIXYJ0uQ5hx/7JZinzBuFql+K3o=</DigestValue>
+          </Reference>
+        </SignedInfo>
+        <SignatureValue>g5YVoS0aneLGNXFb7kyc4pj0kH3OP9sRSx9BoFlV/JwIKDBMC4NQOWV5k9/YMJ2eOhtZMpPmkNWUQJihpupF2GJ5Yv/8Q8URtitISw/v3bMRfg/M0yHfuLxXxxUr2xwFVngik5mBmXhFI1Cx15R6xRkDuZ2a/83BAv0FhwMMZs0gwwpRRNHf/Cwen5lq++PKNcDl7uLgQOVqYDQJQKsqeJKSJQYhISe/BNaJ2UC+Mh4nkfeBUaX6V4ES7K63VnjeaaN09LOBnC+R3/fBRm7mGRrpbzErjaQMdLlAkB8XmfvWJWJxvv4tny8fuhTcuhmyaDwBMJjIY6l7aIGB/W9xIQ==</SignatureValue>
+        <KeyInfo>
+          <X509Data>
+            <X509SubjectName>CN=[A] BANCO GENERAL  S A - 280-134-61098 - 2 - HOO VELASQUEZ ANGEL NAPOLEON, OU=FACTURA ELECTRONICA, O=FIRMA ELECTRONICA, C=PA</X509SubjectName>
+            <X509Certificate>MIIGYTCCBUmgAwIBAgIQRTYBcXRNlo44jEa9EryYlDANBgkqhkiG9w0BAQsFADBFMQswCQYDVQQGEwJQQTEaMBgGA1UECgwRRklSTUEgRUxFQ1RST05JQ0ExGjAYBgNVBAMMEUNBIFBBTkFNQSBDTEFTRSAyMB4XDTI0MDUwOTEzNDYwNloXDTI2MDUwOTEzNDYwNlowgZsxCzAJBgNVBAYTAlBBMRowGAYDVQQKDBFGSVJNQSBFTEVDVFJPTklDQTEcMBoGA1UECwwTRkFDVFVSQSBFTEVDVFJPTklDQTFSMFAGA1UEAwxJW0FdIEJBTkNPIEdFTkVSQUwgIFMgQSAtIDI4MC0xMzQtNjEwOTggLSAyIC0gSE9PIFZFTEFTUVVFWiBBTkdFTCBOQVBPTEVPTjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKJaOaoDp6MiTYXYfe6I48t7Bu5DkEviyfqvYrtz2dtE7XAIWyiZKgHQsBRKXZOpN2f2PYP8jgNtKf6TMKf3BzTCmlfM2OjPPaKHwZmglLADV1AFyam6Lt2HdQzwGNXkWZyMPXilK/EaPZTsJsf5osYomBQkrcNQXF7VHMnP/5G3vgTPDKiAYFZ1/kdZx8sO4odAP9wbiqX1cOHWdkHAGd28vSc3Bz/YE5JgXT2YEmjWUy0vXuqa03HySItPFUTGdTLT6FKRw7E9NFB+n8U8mPAfMSdDI3oiVPxyKkr0ovWUbTZQAGmTJSW4nh/Di1az1ckw1NdtwxZ9i46ZLY/TOy8CAwEAAaOCAvQwggLwMA4GA1UdDwEB/wQEAwIFoDAZBgNVHSUEEjAQBggrBgEFBQcDAgYEVR0lADBnBggrBgEFBQcBAQRbMFkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9vY3NwLnBraS5nb2IucGEwMwYIKwYBBQUHMAKGJ2h0dHA6Ly93d3cucGtpLmdvYi5wYS9jYWNlcnRzL2NhcGMyLmNydDCBygYDVR0gBIHCMIG/MIG8BghghE8BAgIGATCBrzA2BggrBgEFBQcCARYqaHR0cDovL3d3dy5wa2kuZ29iLnBhL25vcm1hdGl2YS9pbmRleC5odG1sMHUGCCsGAQUFBwICMGkaZ0NlcnRpZmljYWRvIHN1amV0byBhIGxhIERlY2xhcmFjaW9uIGRlIFByYWN0aWNhcyBkZSBDZXJ0aWZpY2FjaW9uIGRlIEZpcm1hIEVsZWN0cm9uaWNhIGRlIFBhbmFtYSAoMjAxMikwggEJBgNVHREEggEAMIH9pIHnMIHkMQ4wDAYHYIRPAQEGAgwBMjEOMAwGB2CETwEBBgEMATIxGjAYBgdghE8BAQICDA0yODAtMTM0LTYxMDk4MR8wHQYHYIRPAQECAQwSQkFOQ08gR0VORVJBTCAgUyBBMRcwFQYHYIRPAQEBBgwKMTcvMDMvMTk2MjEXMBUGB2CETwEBAQUMCjgtMjI0LTE0ODExFjAUBgdghE8BAQEEDAlWRUxBU1FVRVoxEDAOBgdghE8BAQEDDANIT08xFTATBgdghE8BAQECDAhOQVBPTEVPTjESMBAGB2CETwEBAQEMBUFOR0VMgRFhaG9vQGJnZW5lcmFsLmNvbTA1BgNVHR8ELjAsMCqgKKAmhiRodHRwOi8vd3d3LnBraS5nb2IucGEvY3Jscy9jYXBjMi5jcmwwHwYDVR0jBBgwFoAU6P5s9giVKrrcZLmgWW7t0LzwyXIwHQYDVR0OBBYEFGCR3aIisit0UN+xewfyZghz8L/SMAkGA1UdEwQCMAAwDQYJKoZIhvcNAQELBQADggEBALWwy5gZ6Ny7oA6iYoJx9R3AStMvQrukOHQ3Jwx3cItFv4InHsXlrKG/WB2X0HJYGnleGUQiFpk+DQBhhdsbCKr9l5fsCLRp6veI1MuXaAJn3B+ZuFk4KrO6XICZzrW6D5XcSxUJhJ7ZkEqDnN4PeoqbVuPWZuQBtNrgN+GNJhcuS95q/71pnr6YopuecuJ7c2xKLR1PTp5YY5FW2A22Yhw1N4ApJIoMx20O8RJjaF3+15waYmdEi5kgvvb9Lr+fQfFvOUtbFgQhwx218KwA1wh261YVnLWmtlgYCLqh1bB3ByNt0vbhAEQ+KKN0MFn1kFHgwO5xDmpYHtOVDzOx7U0=</X509Certificate>
+          </X509Data>
+        </KeyInfo>
+      </Signature>
+      <gNoFirm>
+        <dQRCode><![CDATA[https://dgi-fep.mef.gob.pa/Consultas/FacturasPorQR?chFE=FE0120000000280-134-61098-0200002026011400300407000010117121265495&iAmb=1&digestValue=Vp4vYJkHQA0p908wJIXYJ0uQ5hx/7JZinzBuFql+K3o=&jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaEZFIjoiRkUwMTIwMDAwMDAwMjgwLTEzNC02MTA5OC0wMjAwMDAyMDI2MDExNDAwMzAwNDA3MDAwMDEwMTE3MTIxMjY1NDk1IiwiaUFtYiI6IjEiLCJkaWdlc3RWYWx1ZSI6IlZwNHZZSmtIUUEwcDkwOHdKSVhZSjB1UTVoeC83SlppbnpCdUZxbCtLM289In0.RYXCXVZ4UiiYoKkZEQdmTkChVh17RsJN7oih-Ywe8nQ]]></dQRCode>
+      </gNoFirm>
+    </rFE>
+  </xFe>
+  <xProtFe>
+    <rProtFe xmlns="http://dgi-fep.mef.gob.pa">
+      <dVerForm>1.00</dVerForm>
+      <gInfProt>
+        <dId>ID00001837393-1-71143820265791850000013062</dId>
+        <iAmb>1</iAmb>
+        <dVerApl>0.1.0</dVerApl>
+        <dCUFE>FE0120000000280-134-61098-0200002026011400300407000010117121265495</dCUFE>
+        <dFecProc>2026-01-15T04:25:21-05:00</dFecProc>
+        <dProAut>00001837393-1-71143820265791850000013062</dProAut>
+        <dDigVal>Vp4vYJkHQA0p908wJIXYJ0uQ5hx/7JZinzBuFql+K3o=</dDigVal>
+        <gResProc>
+          <dCodRes>1617</dCodRes>
+          <dMsgRes>Ubicación del receptor no informada </dMsgRes>
+        </gResProc>
+        <gResProc>
+          <dCodRes>2007</dCodRes>
+          <dMsgRes>Item 1: No informado ningún código de producto en la Codificación Panameña de Bienes y Servicios </dMsgRes>
+        </gResProc>
+        <gResProc>
+          <dCodRes>2007</dCodRes>
+          <dMsgRes>Item 2: No informado ningún código de producto en la Codificación Panameña de Bienes y Servicios </dMsgRes>
+        </gResProc>
+        <gResProc>
+          <dCodRes>0260</dCodRes>
+          <dMsgRes>Autorizado el uso de la FE</dMsgRes>
+        </gResProc>
+      </gInfProt>
+      <Signature></Signature>
+    </rProtFe>
+  </xProtFe>
+  <xContEv>
+    <rContEv>
+      <dVerForm>1.00</dVerForm>
+      <xEvento>
+        <rProtFe xmlns="http://dgi-fep.mef.gob.pa">
+          <dVerForm>1.00</dVerForm>
+          <gInfProt>
+            <dId>ID00001837393-1-71143820265791850000013062</dId>
+            <iAmb>1</iAmb>
+            <dVerApl>0.1.0</dVerApl>
+            <dCUFE>FE0120000000280-134-61098-0200002026011400300407000010117121265495</dCUFE>
+            <dFecProc>2026-01-15T04:25:21-05:00</dFecProc>
+            <dProAut>00001837393-1-71143820265791850000013062</dProAut>
+            <dDigVal>Vp4vYJkHQA0p908wJIXYJ0uQ5hx/7JZinzBuFql+K3o=</dDigVal>
+            <gResProc>
+              <dCodRes>1617</dCodRes>
+              <dMsgRes>Ubicación del receptor no informada </dMsgRes>
+            </gResProc>
+            <gResProc>
+              <dCodRes>2007</dCodRes>
+              <dMsgRes>Item 1: No informado ningún código de producto en la Codificación Panameña de Bienes y Servicios </dMsgRes>
+            </gResProc>
+            <gResProc>
+              <dCodRes>2007</dCodRes>
+              <dMsgRes>Item 2: No informado ningún código de producto en la Codificación Panameña de Bienes y Servicios </dMsgRes>
+            </gResProc>
+            <gResProc>
+              <dCodRes>0260</dCodRes>
+              <dMsgRes>Autorizado el uso de la FE</dMsgRes>
+            </gResProc>
+          </gInfProt>
+          <Signature></Signature>
+        </rProtFe>
+      </xEvento>
+    </rContEv>
+  </xContEv>
+</rContFe>
