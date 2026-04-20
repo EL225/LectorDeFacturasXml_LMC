@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rFE xmlns="http://dgi-fep.mef.gob.pa">
+  <gDGen>
+    <dNroDF>FAC-000001</dNroDF>
+    <dFechaEm>2025-03-15T10:30:00-05:00</dFechaEm>
+    <gEmis>
+      <gRucEmi>
+        <dRuc>155999999-2-2024</dRuc>
+        <dDV>45</dDV>
+      </gRucEmi>
+      <dNombEm>FERRETERIA DEMO, S.A.</dNombEm>
+    </gEmis>
+  </gDGen>
+  <gItem>
+    <dSecItem>1</dSecItem>
+    <dCodProd>TORN-001</dCodProd>
+    <dDescProd>Tornillo hexagonal 1/4 caja 100 und</dDescProd>
+    <dCantCodInt>5</dCantCodInt>
+    <cUnidad>CAJ</cUnidad>
+    <gPrecios>
+      <dPrUnit>12.50</dPrUnit>
+    </gPrecios>
+  </gItem>
+  <gTot>
+    <dTotNeto>62.50</dTotNeto>
+    <dTotITBMS>4.38</dTotITBMS>
+    <dTotISC>0.00</dTotISC>
+    <dTotDesc>0.00</dTotDesc>
+    <dTotRec>66.88</dTotRec>
+  </gTot>
+</rFE>
