@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rFE xmlns="http://dgi-fep.mef.gob.pa">
+  <gDGen>
+    <dNroDF>FAC-000234</dNroDF>
+    <dFechaEm>2025-03-18T14:15:00-05:00</dFechaEm>
+    <gEmis>
+      <gRucEmi>
+        <dRuc>155888777-1-2023</dRuc>
+        <dDV>12</dDV>
+      </gRucEmi>
+      <dNombEm>SUMINISTROS DE OFICINA EJEMPLO, S.A.</dNombEm>
+    </gEmis>
+  </gDGen>
+  <gItem>
+    <dSecItem>1</dSecItem>
+    <dCodProd>PAP-A4-500</dCodProd>
+    <dDescProd>Resma de papel bond A4 75g (500 hojas)</dDescProd>
+    <dCantCodInt>10</dCantCodInt>
+    <cUnidad>UND</cUnidad>
+    <gPrecios>
+      <dPrUnit>8.75</dPrUnit>
+    </gPrecios>
+  </gItem>
+  <gTot>
+    <dTotNeto>87.50</dTotNeto>
+    <dTotITBMS>6.13</dTotITBMS>
+    <dTotISC>0.00</dTotISC>
+    <dTotDesc>5.00</dTotDesc>
+    <dTotRec>88.63</dTotRec>
+  </gTot>
+</rFE>

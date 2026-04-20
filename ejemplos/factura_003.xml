@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rFE xmlns="http://dgi-fep.mef.gob.pa">
+  <gDGen>
+    <dNroDF>FAC-005672</dNroDF>
+    <dFechaEm>2025-03-22T09:45:00-05:00</dFechaEm>
+    <gEmis>
+      <gRucEmi>
+        <dRuc>155123456-2-2024</dRuc>
+        <dDV>78</dDV>
+      </gRucEmi>
+      <dNombEm>SERVICIOS TECNOLOGICOS DEMO CORP.</dNombEm>
+    </gEmis>
+  </gDGen>
+  <gItem>
+    <dSecItem>1</dSecItem>
+    <dCodProd>SRV-CLOUD</dCodProd>
+    <dDescProd>Hosting en la nube plan mensual</dDescProd>
+    <dCantCodInt>1</dCantCodInt>
+    <cUnidad>MES</cUnidad>
+    <gPrecios>
+      <dPrUnit>150.00</dPrUnit>
+    </gPrecios>
+  </gItem>
+  <gTot>
+    <dTotNeto>150.00</dTotNeto>
+    <dTotITBMS>10.50</dTotITBMS>
+    <dTotISC>0.00</dTotISC>
+    <dTotDesc>0.00</dTotDesc>
+    <dTotRec>160.50</dTotRec>
+  </gTot>
+</rFE>
